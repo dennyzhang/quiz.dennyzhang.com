@@ -41,3 +41,6 @@ See more quizs from Denny: [[https://github.com/topics/denny-quizs][#denny-quizs
 #+SEQ_TODO: TODO HALF ASSIGN | DONE BYPASS DELEGATE CANCELED DEFERRED
 #+LINK_UP:   
 #+LINK_HOME: 
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* TODO trim wordpress instance ram usage:noexport:
+* TODO Use org-mode to edit the quiz; Github can show the quiz; And also export to wordpress in a good format
