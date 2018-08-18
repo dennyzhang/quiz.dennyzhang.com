@@ -14,7 +14,7 @@ Blog: https://quiz.dennyzhang.com/
 
 File me [[https://github.com/DennyZhang/challenges-leetcode-interesting/issues][Issues]] or star [[https://github.com/DennyZhang/challenges-leetcode-interesting][this repo]].
 
-See more quizs from Denny: [[https://github.com/topics/denny-quizs][#denny-quizs]]
+See more quiz from Denny: [[https://github.com/topics/denny-quiz][#denny-quiz]]
 
 ** More Resources
  License: Code is licensed under [[https://www.dennyzhang.com/wp-content/mit_license.txt][MIT License]].
@@ -28,7 +28,7 @@ See more quizs from Denny: [[https://github.com/topics/denny-quizs][#denny-quizs
  #+END_HTML
 * org-mode configuration                                           :noexport:
 #+STARTUP: overview customtime noalign logdone showall
-#+TITLE:  Denny Quizs
+#+TITLE:  Denny Quiz
 #+DESCRIPTION: 
 #+KEYWORDS: 
 #+AUTHOR: Denny Zhang
@@ -43,4 +43,4 @@ See more quizs from Denny: [[https://github.com/topics/denny-quizs][#denny-quizs
 #+LINK_HOME: 
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * TODO trim wordpress instance ram usage:noexport:
-* TODO Use org-mode to edit the quiz; Github can show the quiz; And also export to wordpress in a good format
+* TODO Use org-mode to edit the quiz; Github can show the quiz; And also export to wordpress in a good format :noexport:
