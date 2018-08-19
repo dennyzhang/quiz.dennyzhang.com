@@ -1,19 +1,30 @@
-* Understanding Of Kubernetes Concepts                          :BLOG:Medium:
+* Understanding Of Kubernetes Concepts                          :BLOG:Kubernetes:
 #+STARTUP: showeverything
 #+OPTIONS: toc:nil \n:t ^:nil creator:nil d:nil
 :PROPERTIES:
-:type:     inspiring, bitmanipulation
+:type:     kubernetes
 :END:
 ---------------------------------------------------------------------
 Understanding Of Kubernetes Concepts
 ---------------------------------------------------------------------
 #+BEGIN_HTML
-<a href="https://github.com/dennyzhang/quiz.dennyzhang.com"><img align="right" width="200" height="183" src="https://www.dennyzhang.com/wp-content/uploads/denny/watermark/github.png" /></a>
+<a href="https://github.com/dennyzhang/quiz.dennyzhang.com/tree/master/quiz/kubernetes-concept"><img align="right" width="200" height="183" src="https://www.dennyzhang.com/wp-content/uploads/denny/watermark/github.png" /></a>
 #+END_HTML
 
 Similar Problems:
 - TODO
 ---------------------------------------------------------------------
+TODO
+** Q: Can I start one Pod with multiple containers?
+Level: Easy
+Type: T/F
+Answer: Yes
+
+Follow-up:
+
+- List some scenarios, which I need it?
+- What's initContainers?
+** Q: What's the difference in between of Kubernetes Labels and Anonations?
 TODO
 
 #+BEGIN_HTML

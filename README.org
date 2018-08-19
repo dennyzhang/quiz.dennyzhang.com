@@ -44,3 +44,13 @@ See more quiz from Denny: [[https://github.com/topics/denny-quiz][#denny-quiz]]
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * TODO trim wordpress instance ram usage:noexport:
 * TODO Use org-mode to edit the quiz; Github can show the quiz; And also export to wordpress in a good format :noexport:
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* TODO quiz blog
+** change theme
+https://wordpress.org/themes/search/bootstrap/
+
+https://downloads.wordpress.org/theme/bootstrap-blog.1.0.1.zip
+* TODO [#A] Beautify: https://quiz.dennyzhang.com/quiz-k8s-concept :noexport:
+** List one quiz
+** Wrap up it as a wizzard
+** List related posts

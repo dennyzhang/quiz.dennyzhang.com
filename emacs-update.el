@@ -18,7 +18,7 @@
 
 (progn
    (find-file "README.org")
-   (cheatsheet-update-wordpress-current-entry)
+   (quiz-update-wordpress-current-entry)
    (kill-buffer)
    (dolist (f (file-expand-wildcards "*.html~"))
      (if (file-exists-p f)
