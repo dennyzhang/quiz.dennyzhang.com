@@ -12,7 +12,8 @@ function my_test() {
 
 function refresh_wordpress() {
     echo "Use emacs to update README.ord"
-    for f in $(ls -1t */*/README.org); do
+    cd posts
+    for f in $(ls -1t */README.org); do
         echo "Update $f"
         dirname=$(dirname $f)
         cd $dirname

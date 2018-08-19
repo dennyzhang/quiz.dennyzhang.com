@@ -1,0 +1,92 @@
+* Understanding Of Kubernetes Concepts                          :BLOG:Kubernetes:
+#+STARTUP: showeverything
+#+OPTIONS: toc:nil \n:t ^:nil creator:nil d:nil
+#+EXPORT_EXCLUDE_TAGS: exclude noexport BLOG
+:PROPERTIES:
+:type:     kubernetes
+:END:
+---------------------------------------------------------------------
+Understanding Of Kubernetes Concepts
+---------------------------------------------------------------------
+#+BEGIN_HTML
+<a href="https://github.com/dennyzhang/quiz.dennyzhang.com/tree/master/posts/kubernetes-concept"><img align="right" width="200" height="183" src="https://www.dennyzhang.com/wp-content/uploads/denny/watermark/github.png" /></a>
+#+END_HTML
+
+Similar Problems:
+- TODO
+---------------------------------------------------------------------
+Quiz Level: Easy
+
+
+** Q: Pod VS Container: Can I start one Pod with multiple containers?
+Type: T/F
+Answer: Yes
+
+Comments:
+- Pods: tightly coupled group of containers
+
+Follow-up:
+
+- List some scenarios, which I need it?
+- What's initContainers?
+** Q: Labels VS Anonations
+** Q: ClusterIP VS NodePort
+** Q: PV(Persist Volume) VS PVC(Persist Volume Claim)
+** Q: Deployment VS StatefulSet
+** Q: Context VS Namespace
+#+BEGIN_EXAMPLE
+Context: Configure Access to Multiple Clusters
+https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/
+#+END_EXAMPLE
+** Q: kubectl create vs kubectl apply
+#+BEGIN_EXAMPLE
+Imperative vs Declarative
+https://stackoverflow.com/questions/47369351/kubectl-apply-vs-kubectl-create
+https://kubernetes.io/docs/tutorials/object-management-kubectl/object-management/
+#+END_EXAMPLE
+** Q: Cronjob vs Linux Crontab
+** Q: UserAcount VS ServiceAccount
+
+#+BEGIN_HTML
+<div style="overflow: hidden;">
+<div style="float: left; padding: 5px"> <a href="https://www.linkedin.com/in/dennyzhang001"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/linkedin.png" alt="linkedin" /></a></div>
+<div style="float: left; padding: 5px"><a href="https://github.com/dennyzhang"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/github.png" alt="github" /></a></div>
+<div style="float: left; padding: 5px"><a href="https://www.dennyzhang.com/slack" target="_blank" rel="nofollow"><img src="https://slack.dennyzhang.com/badge.svg" alt="slack"/></a></div>
+</div>
+#+END_HTML
+** misc                                                            :noexport:
+https://www.linkedin.com/feed/update/urn:li:activity:6356168330918846464
+* TODO [#A] Blog: Kubernetes Concepts In A4 CheatSheet            :IMPORTANT:noexport:
+** TODO Key Concept by Arun Gupta
+** TODO Learn the Kubernets Key Concepts in 10 Minutes by Omer Dawelbit
+** #  --8<-------------------------- separator ------------------------>8-- :noexport:
+** Application
+** Deployment
+** PersistVolume
+** #  --8<-------------------------- separator ------------------------>8-- :noexport:
+** Replication controller: ensures that a specified number of pod "replicas" are running at any one time.
+** ReplicaSet
+** Secrets
+** Namespace
+** #  --8<-------------------------- separator ------------------------>8-- :noexport:
+** Uses etcd as distributed key-value store
+** TODO StatefulSet: manage stateful applications
+https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/
+Like a Deployment, a StatefulSet manages Pods that are based on an identical container spec.
+
+Unlike a Deployment, a StatefulSet maintains a sticky identity for each of their Pods. 
+** Service Discovery: Using env variable injection or SkyDNS with the Service
+** Ingress
+** #  --8<-------------------------- separator ------------------------>8-- :noexport:
+** DONE 3 parts: k8s cluster; service coorstration, understand service
+   CLOSED: [2017-12-05 Tue 11:01]
+** DONE Concept: Use a Service to Access an Application in a Cluster
+  CLOSED: [2017-12-05 Tue 10:54]
+https://kubernetes.io/docs/tasks/access-application-cluster/service-access-application-cluster/
+** DONE How to Create a volume: 3 steps
+   CLOSED: [2017-12-05 Tue 10:55]
+** DONE ReplicationController vs ReplicationSet vs Deployment
+   CLOSED: [2017-12-05 Tue 10:55]
+** #  --8<-------------------------- separator ------------------------>8-- :noexport:
+** Kubernetes (k8s) = Open Source Container Cluster Manager
+** Networking: Each pod gets its own IP address

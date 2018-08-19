@@ -45,12 +45,59 @@ See more quiz from Denny: [[https://github.com/topics/denny-quiz][#denny-quiz]]
 * TODO trim wordpress instance ram usage:noexport:
 * TODO Use org-mode to edit the quiz; Github can show the quiz; And also export to wordpress in a good format :noexport:
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
-* TODO quiz blog
-** change theme
-https://wordpress.org/themes/search/bootstrap/
-
-https://downloads.wordpress.org/theme/bootstrap-blog.1.0.1.zip
 * TODO [#A] Beautify: https://quiz.dennyzhang.com/quiz-k8s-concept :noexport:
 ** List one quiz
 ** Wrap up it as a wizzard
 ** List related posts
+* TODO quiz.dennyzhang.com                                         :noexport:
+** DONE
+*** DONE build docker image
+    CLOSED: [2018-08-19 Sun 08:03]
+*** DONE initialize wordpress
+    CLOSED: [2018-08-19 Sun 08:03]
+*** DONE create ECS task
+    CLOSED: [2018-08-19 Sun 08:03]
+*** DONE create adsense
+    CLOSED: [2018-08-18 Sat 16:08]
+ - sidebar
+ #+BEGIN_EXAMPLE
+ <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+ <!-- quiz_sidebar -->
+ <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-5389711597208884"
+      data-ad-slot="6327434894"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+ <script>
+ (adsbygoogle = window.adsbygoogle || []).push({});
+ </script>
+ #+END_EXAMPLE
+ - footer
+ #+BEGIN_EXAMPLE
+ <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+ <!-- quiz_footer -->
+ <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-5389711597208884"
+      data-ad-slot="8901627346"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+ <script>
+ (adsbygoogle = window.adsbygoogle || []).push({});
+ </script>
+ #+END_EXAMPLE
+*** DONE uptimerobot monitoring
+    CLOSED: [2018-08-19 Sun 08:16]
+ https://quiz.dennyzhang.com/contact
+*** DONE add blog icon
+    CLOSED: [2018-08-19 Sun 08:16]
+*** DONE add contact page
+    CLOSED: [2018-08-19 Sun 08:27]
+*** DONE change theme
+    CLOSED: [2018-08-19 Sun 11:15]
+ https://wordpress.org/themes/search/bootstrap/
+
+ https://downloads.wordpress.org/theme/bootstrap-blog.1.0.1.zip
+** TODO add more quiz examples
+** TODO make file publish wordpress doesn't work
