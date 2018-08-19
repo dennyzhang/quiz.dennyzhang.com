@@ -1,9 +1,9 @@
-* Understanding Of Kubernetes Concepts                      :Kubernetes:
+* Quiz: Understanding Of Kubernetes Concepts                     :Kubernetes:
 #+STARTUP: showeverything
 #+OPTIONS: toc:nil \n:t ^:nil creator:nil d:nil
 #+EXPORT_EXCLUDE_TAGS: exclude noexport BLOG
 :PROPERTIES:
-:type:     kubernetes
+:type:     kubernetes, cloud
 :END:
 ---------------------------------------------------------------------
 Understanding Of Kubernetes Concepts
@@ -13,22 +13,27 @@ Understanding Of Kubernetes Concepts
 #+END_HTML
 
 Similar Problems:
-- TODO
+- Tag: [[https://quiz.dennyzhang.com/tag/kubernetes][#kubernetes]], [[https://quiz.dennyzhang.com/tag/cloud][#cloud]]
 ---------------------------------------------------------------------
 Quiz Level: Easy
 
-** Q: Pod VS Container: Can I start one Pod with multiple containers?
+** Q: Pod VS Container
+Question: Can I start one Pod with multiple containers?
 Type: T/F
 Answer: Yes
-
 Comments:
-- Pods: tightly coupled group of containers
-
+#+BEGIN_EXAMPLE
+Pods: Tightly coupled group of containers
+#+END_EXAMPLE
 Follow-up:
-
-- List some scenarios, which I need it?
-- What's initContainers?
+#+BEGIN_EXAMPLE
+List some scenarios, which I need it? 
+What's initContainers?
+#+END_EXAMPLE
+** Q: Container VS InitContainer
 ** Q: Labels VS Anonations
+** Q: Cronjob vs Linux Crontab
+** Q: UserAcount VS ServiceAccount
 ** Q: ClusterIP VS NodePort
 ** Q: PV(Persist Volume) VS PVC(Persist Volume Claim)
 ** Q: Deployment VS StatefulSet
@@ -43,8 +48,6 @@ Imperative vs Declarative
 https://stackoverflow.com/questions/47369351/kubectl-apply-vs-kubectl-create
 https://kubernetes.io/docs/tutorials/object-management-kubectl/object-management/
 #+END_EXAMPLE
-** Q: Cronjob vs Linux Crontab
-** Q: UserAcount VS ServiceAccount
 
 #+BEGIN_HTML
 <div style="overflow: hidden;">
