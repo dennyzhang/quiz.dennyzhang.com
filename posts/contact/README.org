@@ -1,4 +1,4 @@
-* Contact Quiz                                              :BLOG:Life:
+* Contact Quiz                                              :Life:
 #+STARTUP: showeverything
 #+OPTIONS: toc:nil \n:t ^:nil creator:nil d:nil
 #+EXPORT_EXCLUDE_TAGS: exclude noexport BLOG

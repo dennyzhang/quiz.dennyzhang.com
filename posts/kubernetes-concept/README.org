@@ -1,4 +1,4 @@
-* Understanding Of Kubernetes Concepts                          :BLOG:Kubernetes:
+* Understanding Of Kubernetes Concepts                      :Kubernetes:
 #+STARTUP: showeverything
 #+OPTIONS: toc:nil \n:t ^:nil creator:nil d:nil
 #+EXPORT_EXCLUDE_TAGS: exclude noexport BLOG
@@ -55,7 +55,7 @@ https://kubernetes.io/docs/tutorials/object-management-kubectl/object-management
 #+END_HTML
 ** misc                                                            :noexport:
 https://www.linkedin.com/feed/update/urn:li:activity:6356168330918846464
-* TODO [#A] Blog: Kubernetes Concepts In A4 CheatSheet            :IMPORTANT:noexport:
+* TODO [#A] Blog: Kubernetes Concepts In A4 CheatSheet   :IMPORTANT:noexport:
 ** TODO Key Concept by Arun Gupta
 ** TODO Learn the Kubernets Key Concepts in 10 Minutes by Omer Dawelbit
 ** #  --8<-------------------------- separator ------------------------>8-- :noexport:
@@ -80,7 +80,7 @@ Unlike a Deployment, a StatefulSet maintains a sticky identity for each of their
 ** DONE 3 parts: k8s cluster; service coorstration, understand service
    CLOSED: [2017-12-05 Tue 11:01]
 ** DONE Concept: Use a Service to Access an Application in a Cluster
-  CLOSED: [2017-12-05 Tue 10:54]
+   CLOSED: [2017-12-05 Tue 10:54]
 https://kubernetes.io/docs/tasks/access-application-cluster/service-access-application-cluster/
 ** DONE How to Create a volume: 3 steps
    CLOSED: [2017-12-05 Tue 10:55]
