@@ -17,7 +17,6 @@ Similar Problems:
 ---------------------------------------------------------------------
 Quiz Level: Easy
 
-
 ** Q: Pod VS Container: Can I start one Pod with multiple containers?
 Type: T/F
 Answer: Yes
