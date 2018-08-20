@@ -14,3 +14,6 @@ refresh-link:
 
 my_test:
 	bash automate.sh my_test
+
+generate-quiz:
+	bash generate_quiz.sh

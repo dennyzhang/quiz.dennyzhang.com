@@ -107,4 +107,5 @@ See more quiz from Denny: [[https://github.com/topics/denny-quiz][#denny-quiz]]
 * TODO quiz ideas                                                  :noexport:
 ** TODO kubernetes-security
 ** graph algorithms
+** k8s limitations
 ** tree algorithms

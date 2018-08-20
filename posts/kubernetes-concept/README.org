@@ -57,7 +57,7 @@ I should define multiple resource of which one in below?
 A Context
 B Namespace
 
-Answer: A
+Answer: B
 #+END_EXAMPLE
 Comments:
 Context: [[https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/][Configure Access to Multiple Clusters]]
@@ -118,3 +118,5 @@ https://kubernetes.io/docs/tasks/access-application-cluster/service-access-appli
 ** #  --8<-------------------------- separator ------------------------>8-- :noexport:
 ** Kubernetes (k8s) = Open Source Container Cluster Manager
 ** Networking: Each pod gets its own IP address
+* build quiz                                                       :noexport:
+cat [0-9]*.xml > kubernetes-concept.xml
