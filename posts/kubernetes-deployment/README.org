@@ -12,8 +12,7 @@ Common Usage Of Kubernetes Deployment
 <a href="https://github.com/dennyzhang/quiz.dennyzhang.com/tree/master/posts/kubernetes-deployment"><img align="right" width="200" height="183" src="https://www.dennyzhang.com/wp-content/uploads/denny/watermark/github.png" /></a>
 #+END_HTML
 
-Similar Problems:
-- Tag: [[https://quiz.dennyzhang.com/tag/kubernetes][#kubernetes]], [[https://quiz.dennyzhang.com/tag/cloud][#cloud]]
+Blog URL: https://quiz.dennyzhang.com/kubernetes-deployment, Tag: [[https://quiz.dennyzhang.com/tag/kubernetes][#kubernetes]], [[https://quiz.dennyzhang.com/tag/cloud][#cloud]]
 ---------------------------------------------------------------------
 Quiz Level: Medium
 

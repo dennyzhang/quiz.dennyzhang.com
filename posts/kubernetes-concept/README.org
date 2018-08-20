@@ -15,7 +15,8 @@ Understanding Of Kubernetes Concepts
 Related Readings:
 - https://kubernetes.io/docs/concepts/
 - GitHub: [[https://github.com/dennyzhang/challenges-kubernetes][challenges-kubernetes]]
-- Tag: [[https://quiz.dennyzhang.com/tag/kubernetes][#kubernetes]], [[https://quiz.dennyzhang.com/tag/cloud][#cloud]]
+
+Blog URL: https://quiz.dennyzhang.com/quiz-k8s-concept, Tag: [[https://quiz.dennyzhang.com/tag/kubernetes][#kubernetes]], [[https://quiz.dennyzhang.com/tag/cloud][#cloud]]
 ---------------------------------------------------------------------
 Quiz Level: Easy
 
