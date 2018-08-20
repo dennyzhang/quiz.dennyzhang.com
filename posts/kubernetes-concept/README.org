@@ -18,18 +18,30 @@ Related Readings:
 
 Blog URL: https://quiz.dennyzhang.com/quiz-k8s-concept, Tag: [[https://quiz.dennyzhang.com/tag/kubernetes][#kubernetes]], [[https://quiz.dennyzhang.com/tag/cloud][#cloud]]
 ---------------------------------------------------------------------
+Category: Kubernetes
 Quiz Level: Easy
-
 ** Q: Pod VS Container
-Question: Can I start one Pod with multiple containers?
-Type: T/F
-Answer: Yes
+Question: 
+#+BEGIN_EXAMPLE
+Can I start one Pod with multiple containers?
+A True
+B False
+
+Answer: A
+#+END_EXAMPLE
 Comments:
 - Pods: Tightly coupled group of containers
 Follow-up:
-- List some scenarios when people may need multiple containers for one pod.
-- What initContainer is?
+- List two scenarios why I need to do that?
 ** Q: Container VS InitContainer
+Question:
+#+BEGIN_EXAMPLE
+
+#+END_EXAMPLE
+Comments:
+- [[https://kubernetes.io/docs/concepts/workloads/pods/init-containers/][Init Containers]]
+Follow-up:
+- How to check log of InitContainers?
 ** Q: Kubernetes Master Node VS Kubernetes Worker Node
 ** Q: Labels VS Anonations
 ** Q: Cronjob vs Linux Crontab
@@ -44,10 +56,9 @@ I should define multiple resource of which one in below?
 
 A Context
 B Namespace
-#+END_EXAMPLE
 
-Type: Single Choice
 Answer: A
+#+END_EXAMPLE
 Comments:
 Context: [[https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/][Configure Access to Multiple Clusters]]
 Follow-up:
