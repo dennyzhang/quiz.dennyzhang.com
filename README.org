@@ -102,3 +102,9 @@ See more quiz from Denny: [[https://github.com/topics/denny-quiz][#denny-quiz]]
 ** TODO add more quiz examples
 * TODO make file publish wordpress doesn't work                    :noexport:
 * TODO update github fork me link to a specific one                :noexport:
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* TODO Update https://quiz.dennyzhang.com/contact                  :noexport:
+* TODO quiz ideas                                                  :noexport:
+** TODO kubernetes-security
+** graph algorithms
+** tree algorithms

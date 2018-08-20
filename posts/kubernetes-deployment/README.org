@@ -20,7 +20,10 @@ Quiz Level: Medium
 ** Q: Service Type - Loadbalancer
 Q: For on-prem env or local env, would it be a good idea if I create kubernetes service with type of Loadbalancer?
 
-** Service Type: 4 different types
+** Q: ClusterIP VS NodePort
+** Q: DeploymentSet VS ReplicaSet
+** Q: reserve quota VS limits quota
+** Q: Service Type: 4 different types
 
 #+BEGIN_HTML
 <div style="overflow: hidden;">
