@@ -1,24 +1,24 @@
 				<question answerType="single">
 					<title>
-						<![CDATA[Q: Pod VS Container]]>
+						<![CDATA[Q: Container VS InitContainer]]>
 					</title>
 					<points>1</points>
 					<questionText>
-						<![CDATA[Can I start one Pod with multiple containers?]]>
+						<![CDATA[Let's say I have started a Pod with one InitContainer and one container. If the InitContainer exit, will the Pod fail to start or not?]]>
 					</questionText>
 					<correctMsg>
 						<![CDATA[Comments:
-- Pods: Tightly coupled group of containers
+- Init Containers: https://kubernetes.io/docs/concepts/workloads/pods/init-containers
 
 Follow-up:
-- List two scenarios why I need to do that?]]>
+- How to check log of InitContainers?]]>
 					</correctMsg>
 					<incorrectMsg>
 						<![CDATA[Comments:
-- Pods: Tightly coupled group of containers
+- Init Containers: https://kubernetes.io/docs/concepts/workloads/pods/init-containers
 
 Follow-up:
-- List two scenarios why I need to do that?]]>
+- How to check log of InitContainers?]]>
 					</incorrectMsg>
 					<tipMsg enabled="false">
 						<![CDATA[]]>
@@ -30,7 +30,7 @@ Follow-up:
 					<answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
 					<disableCorrect>false</disableCorrect>
 					<answers>
-						<answer points="1" correct="true">
+						<answer points="1" correct="false">
 							<answerText html="true">
 								<![CDATA[Yes]]>
 							</answerText>
@@ -38,7 +38,7 @@ Follow-up:
 								<![CDATA[]]>
 							</stortText>
 						</answer>
-						<answer points="1" correct="false">
+						<answer points="1" correct="true">
 							<answerText html="true">
 								<![CDATA[No]]>
 							</answerText>

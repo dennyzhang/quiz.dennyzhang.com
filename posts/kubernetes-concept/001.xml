@@ -4,12 +4,12 @@
 	<data>
 		<quiz>
 			<title titleHidden="false">
-				<![CDATA[AWS Quiz By Denny]]>
+				<![CDATA[Quiz: Understanding Of Kubernetes Concepts]]>
 			</title>
 			<text>
-				<![CDATA[A problem set based on my prep notes of AWS exams]]>
+				<![CDATA[Basic understanding of common Kubernetes concepts]]>
 			</text>
-			<category>aws</category>
+			<category>kubernetes</category>
 			<resultText gradeEnabled="false">
 				<![CDATA[Result for the quiz]]>
 			</resultText>
@@ -83,7 +83,7 @@ You have completed the quiz "$quizname".
 Points: $points
 
 Result: $result
-<ul class="org-ul"><li><a href="http://www.dennyzhang.com/prepare_aws_certification/">How to prepare AWS certification exams</a></li><li><a href="http://www.dennyzhang.com/quiz_questions_aws_exam/">More Quiz for AWS certification exams</a></li></ul>]]>
+<ul class="org-ul"><li><a href="https://quiz.dennyzhang.com/kubernetes-concept">Quiz: Understanding Of Kubernetes Concepts</a></li></ul>]]>
 				</message>
 			</userEmail>
 			<forms activated="false" position="0"/>
