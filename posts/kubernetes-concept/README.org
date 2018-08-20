@@ -10,23 +10,9 @@ Understanding Of Kubernetes Concepts
 ---------------------------------------------------------------------
 Blog URL: https://quiz.dennyzhang.com/kubernetes-concept, Tag: [[https://quiz.dennyzhang.com/tag/kubernetes][#kubernetes]], [[https://quiz.dennyzhang.com/tag/cloud][#cloud]]
 ---------------------------------------------------------------------
+[[color:#c7254e][Click Below:]]
 [WpProQuiz 4]
 
-#+BEGIN_HTML
-<a href="https://github.com/dennyzhang/quiz.dennyzhang.com/tree/master/posts/kubernetes-concept"><img align="right" width="200" height="183" src="https://www.dennyzhang.com/wp-content/uploads/denny/watermark/github.png" /></a>
-#+END_HTML
-
-Related Readings:
-- https://kubernetes.io/docs/concepts/
-- GitHub: [[https://github.com/dennyzhang/challenges-kubernetes][challenges-kubernetes]]
-
-#+BEGIN_HTML
-<div style="overflow: hidden;">
-<div style="float: left; padding: 5px"> <a href="https://www.linkedin.com/in/dennyzhang001"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/linkedin.png" alt="linkedin" /></a></div>
-<div style="float: left; padding: 5px"><a href="https://github.com/dennyzhang"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/github.png" alt="github" /></a></div>
-<div style="float: left; padding: 5px"><a href="https://www.dennyzhang.com/slack" target="_blank" rel="nofollow"><img src="https://slack.dennyzhang.com/badge.svg" alt="slack"/></a></div>
-</div>
-#+END_HTML
 * Content
 ** Q: Pod VS Container
 Question: 
@@ -37,11 +23,15 @@ B No
 
 Answer: A
 #+END_EXAMPLE
+Tips:
+#+BEGIN_EXAMPLE
 Comments:
 - Pods: Tightly coupled group of containers
 
 Follow-up:
 - List two scenarios why I need to do that?
+#+END_EXAMPLE
+
 ** Q: Context VS Namespace
 Question:
 
@@ -52,11 +42,16 @@ B Namespace
 
 Answer: B
 #+END_EXAMPLE
+
+Tips:
+#+BEGIN_EXAMPLE
 Comments:
-Context: [[https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/][Configure Access to Multiple Clusters]]
+- Context: https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters
+
 Follow-up:
 - Why people need multiple namespaces? Why people need multiple context?
 - List some security vulnerabilities with namespace and context in current k8s version.
+#+END_EXAMPLE
 ** Q: Container VS InitContainer
 Question:
 
@@ -65,11 +60,15 @@ Let's say I have started a Pod with one InitContainer and one container. If the 
 A Yes
 B No
 #+END_EXAMPLE
+Tips:
+#+BEGIN_EXAMPLE
 Comments:
 - Init Containers: https://kubernetes.io/docs/concepts/workloads/pods/init-containers
 
 Follow-up:
 - How to check log of InitContainers?
+#+END_EXAMPLE
+
 ** Q: Kubernetes Master Node VS Kubernetes Worker Node
 ** Q: Labels VS Anonations
 ** Q: Cronjob vs Linux Crontab
@@ -89,6 +88,22 @@ Follow-up:
 
 ** misc                                                            :noexport:
 https://www.linkedin.com/feed/update/urn:li:activity:6356168330918846464
+* More Resources
+Related Readings:
+- https://kubernetes.io/docs/concepts/
+- GitHub: [[https://github.com/dennyzhang/challenges-kubernetes][challenges-kubernetes]]
+
+#+BEGIN_HTML
+<div style="overflow: hidden;">
+<div style="float: left; padding: 5px"> <a href="https://www.linkedin.com/in/dennyzhang001"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/linkedin.png" alt="linkedin" /></a></div>
+<div style="float: left; padding: 5px"><a href="https://github.com/dennyzhang"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/github.png" alt="github" /></a></div>
+<div style="float: left; padding: 5px"><a href="https://www.dennyzhang.com/slack" target="_blank" rel="nofollow"><img src="https://slack.dennyzhang.com/badge.svg" alt="slack"/></a></div>
+</div>
+#+END_HTML
+
+#+BEGIN_HTML
+<a href="https://github.com/dennyzhang/quiz.dennyzhang.com/tree/master/posts/kubernetes-concept"><img align="right" width="200" height="183" src="https://www.dennyzhang.com/wp-content/uploads/denny/watermark/github.png" /></a>
+#+END_HTML
 * TODO [#A] Blog: Kubernetes Concepts In A4 CheatSheet   :IMPORTANT:noexport:
 ** TODO Key Concept by Arun Gupta
 ** TODO Learn the Kubernets Key Concepts in 10 Minutes by Omer Dawelbit
