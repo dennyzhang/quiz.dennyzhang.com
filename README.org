@@ -12,7 +12,7 @@
 
 Blog: https://quiz.dennyzhang.com/
 
-File me [[https://github.com/DennyZhang/challenges-leetcode-interesting/issues][Issues]] or star [[https://github.com/DennyZhang/challenges-leetcode-interesting][this repo]].
+File me [[https://github.com/DennyZhang/quiz.dennyzhang.com/issues][Issues]] or star [[https://github.com/DennyZhang/quiz.dennyzhang.com][this repo]].
 
 See more quiz from Denny: [[https://github.com/topics/denny-quiz][#denny-quiz]]
 
@@ -103,75 +103,32 @@ See more quiz from Denny: [[https://github.com/topics/denny-quiz][#denny-quiz]]
 * TODO make file publish wordpress doesn't work                    :noexport:
 * TODO update github fork me link to a specific one                :noexport:
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* TODO blog: add the theme support for the quiz                    :noexport:
+http://preview.codecanyon.net/item/wordpress-viral-quiz-buzzfeed-quiz-builder/full_screen_preview/11178623?_ga=2.58272233.2121030111.1494206897-769058022.1494011665
+https://kinsta.com/blog/wordpress-quiz-plugins/
+https://meta.discourse.org/t/plugin-for-viral-quiz-creation-from-markdown/62271
+
+https://wordpress.org/plugins/social-polls-by-opinionstage/#description
+
+** https://wordpress.org/plugins/ari-stream-quiz/
+** https://wordpress.org/plugins/quiz-master-next/
+** https://wordpress.org/plugins/quiz-cat/
+** Opinion Stage
+https://wordpress.org/plugins/social-polls-by-opinionstage/#description
+
+dennyzhang
+denny.zhang001@gmail.com
+https://dennyzhang.com
+DennySophia446
 * TODO Update https://quiz.dennyzhang.com/contact                  :noexport:
 * TODO quiz ideas                                                  :noexport:
 ** TODO kubernetes-security
 ** graph algorithms
+** aws quiz
 ** k8s limitations
 ** tree algorithms
-* build quiz                                                       :noexport:
-cat [0-9]*.xml > kubernetes-concept.xml
-** sample
-				<question answerType="single">
-					<title>
-						<![CDATA[IAM]]>
-					</title>
-					<points>1</points>
-					<questionText>
-						<![CDATA[An IAM user is trying to perform an action on an object belonging to some other root account’s bucket. Which of the below mentioned options will AWS S3 not verify?]]>
-					</questionText>
-					<correctMsg>
-						<![CDATA[If the IAM user is trying to perform some action on the object belonging to another AWS user’s bucket, S3 will verify whether the owner of the IAM user has given sufficient permission to him. It also verifies the policy for the bucket as well as the policy defined by the object owner.
-http://docs.aws.amazon.com/AmazonS3/latest/dev/access-control-auth-workflow-object-operation.html]]>
-					</correctMsg>
-					<incorrectMsg>
-						<![CDATA[If the IAM user is trying to perform some action on the object belonging to another AWS user’s bucket, S3 will verify whether the owner of the IAM user has given sufficient permission to him. It also verifies the policy for the bucket as well as the policy defined by the object owner.
-http://docs.aws.amazon.com/AmazonS3/latest/dev/access-control-auth-workflow-object-operation.html]]>
-					</incorrectMsg>
-					<tipMsg enabled="false">
-						<![CDATA[]]>
-					</tipMsg>
-					<category>Security</category>
-					<correctSameText>false</correctSameText>
-					<showPointsInBox>false</showPointsInBox>
-					<answerPointsActivated>false</answerPointsActivated>
-					<answerPointsDiffModusActivated>false</answerPointsDiffModusActivated>
-					<disableCorrect>false</disableCorrect>
-					<answers>
-						<answer points="1" correct="false">
-							<answerText html="true">
-								<![CDATA[Permission provided by the bucket owner to the IAM user]]>
-							</answerText>
-							<stortText html="true">
-								<![CDATA[]]>
-							</stortText>
-						</answer>
-						<answer points="1" correct="true">
-							<answerText html="true">
-								<![CDATA[Permission provided by the parent of the IAM user on the bucket]]>
-							</answerText>
-							<stortText html="true">
-								<![CDATA[]]>
-							</stortText>
-						</answer>
-						<answer points="1" correct="false">
-							<answerText html="true">
-								<![CDATA[The object owner has provided access to the IAM user]]>
-							</answerText>
-							<stortText html="true">
-								<![CDATA[]]>
-							</stortText>
-						</answer>
-						<answer points="1" correct="false">
-							<answerText html="true">
-								<![CDATA[Permission provided by the parent of the IAM user]]>
-							</answerText>
-							<stortText html="true">
-								<![CDATA[]]>
-							</stortText>
-						</answer>
-					</answers>
-				</question>
 * TODO Two button doesn't algin correctly: https://quiz.dennyzhang.com/quiz-k8s-concept :noexport:
 * [#A] Quiz: Can't overwrite, each time it's a new one             :noexport:
 * TODO Quiz: When customers click url, open a new tab for the link :noexport:
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* TODO Quiz: simplify the xml and automate the generating          :noexport:
