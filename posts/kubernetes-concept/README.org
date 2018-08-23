@@ -8,11 +8,18 @@
 ---------------------------------------------------------------------
 Understanding Of Kubernetes Concepts
 ---------------------------------------------------------------------
-Blog URL: https://quiz.dennyzhang.com/kubernetes-concept, Tag: [[https://quiz.dennyzhang.com/tag/kubernetes][#kubernetes]], [[https://quiz.dennyzhang.com/tag/cloud][#cloud]]
----------------------------------------------------------------------
-[[color:#c7254e][Click Below:]]
-[WpProQuiz 4]
-
+#+BEGIN_HTML
+<a href="https://github.com/dennyzhang/quiz.dennyzhang.com/tree/master/posts/kubernetes-concept"><img align="right" width="200" height="183" src="https://www.dennyzhang.com/wp-content/uploads/denny/watermark/github.png" /></a>
+<div id="the whole thing" style="overflow: hidden;">
+<div style="float: left; padding: 5px"> <a href="https://www.linkedin.com/in/dennyzhang001"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/linkedin.png" alt="linkedin" /></a></div>
+<div style="float: left; padding: 5px"><a href="https://github.com/dennyzhang"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/github.png" alt="github" /></a></div>
+<div style="float: left; padding: 5px"><a href="https://www.dennyzhang.com/slack" target="_blank" rel="nofollow"><img src="https://slack.dennyzhang.com/badge.svg" alt="slack"/></a></div>
+<div style="float: left; padding: 5px"><a href="http://makeapullrequest.com" target="_blank" rel="nofollow"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/></a></div>
+</div>
+#+END_HTML
+Blog URL: https://quiz.dennyzhang.com/kubernetes-concept
+Tag: [[https://quiz.dennyzhang.com/tag/kubernetes][#kubernetes]], [[https://quiz.dennyzhang.com/tag/cloud][#cloud]]
+[WpProQuiz 6]
 * Content
 ** Q: Pod VS Container
 Question: 
@@ -59,6 +66,8 @@ Let's say I have started a Pod with one InitContainer and one container. If the 
 #+BEGIN_EXAMPLE
 A Yes
 B No
+
+Answer: B
 #+END_EXAMPLE
 Tips:
 #+BEGIN_EXAMPLE
@@ -68,8 +77,51 @@ Comments:
 Follow-up:
 - How to check log of InitContainers?
 #+END_EXAMPLE
+** Q: Pod VS Container
+Question: 
+#+BEGIN_EXAMPLE
+Inside one Pod, how to pass information from one container to another?
+A Secrets
+B Configmap
+C Volume
+D Etcd
 
+Answer: C
+#+END_EXAMPLE
+Tips:
+#+BEGIN_EXAMPLE
+Comments:
+- Pods: Tightly coupled group of containers
+
+Follow-up:
+- What data is stored in etcd?
+#+END_EXAMPLE
 ** Q: Kubernetes Master Node VS Kubernetes Worker Node
+Question:
+
+Which process of the following will unlikely to run in Kubernetes master node?
+#+BEGIN_EXAMPLE
+A kube-apiserver
+B kube-controller-manager
+C kube-scheduler
+D kubelet
+
+Answer: D
+#+END_EXAMPLE
+
+Tips:
+
+#+BEGIN_EXAMPLE
+Comments:
+The Kubernetes Master is a collection of three processes that run a single node in your cluster, which is designated as the master node. The processes are kube-apiserver, kube-controller-manager and kube-scheduler.
+
+Each individual non-master node in your cluster runs two processes: kubelet, kube-proxy
+
+Follow-up:
+- If my cluster run into low hardware resource, we might need to add more master nodes or worker nodes.
+- K8S cluster performance issues
+#+END_EXAMPLE
+** #  --8<-------------------------- separator ------------------------>8-- :noexport:
 ** Q: Labels VS Anonations
 ** Q: Cronjob vs Linux Crontab
 ** Q: UserAcount VS ServiceAccount
@@ -97,13 +149,6 @@ Related Readings:
 - https://kubernetes.io/docs/concepts/
 - GitHub: [[https://github.com/dennyzhang/challenges-kubernetes][challenges-kubernetes]]
 
-#+BEGIN_HTML
-<div style="overflow: hidden;">
-<div style="float: left; padding: 5px"> <a href="https://www.linkedin.com/in/dennyzhang001"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/linkedin.png" alt="linkedin" /></a></div>
-<div style="float: left; padding: 5px"><a href="https://github.com/dennyzhang"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/github.png" alt="github" /></a></div>
-<div style="float: left; padding: 5px"><a href="https://www.dennyzhang.com/slack" target="_blank" rel="nofollow"><img src="https://slack.dennyzhang.com/badge.svg" alt="slack"/></a></div>
-</div>
-#+END_HTML
 * TODO [#A] Blog: Kubernetes Concepts In A4 CheatSheet   :IMPORTANT:noexport:
 ** TODO Key Concept by Arun Gupta
 ** TODO Learn the Kubernets Key Concepts in 10 Minutes by Omer Dawelbit
