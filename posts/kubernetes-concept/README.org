@@ -33,7 +33,8 @@ Answer: A
 Tips:
 #+BEGIN_EXAMPLE
 Comments:
-- Pods: Tightly coupled group of containers
+- Pods: A pod (as in a pod of whales or pea pod) is a group of one or more containers (such as Docker containers), with shared storage/network, and a specification for how to run the containers.
+- Link: https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/
 
 Follow-up:
 - List two scenarios why I need to do that?
@@ -73,6 +74,7 @@ Tips:
 #+BEGIN_EXAMPLE
 Comments:
 - Init Containers: https://kubernetes.io/docs/concepts/workloads/pods/init-containers
+- Link: https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/
 
 Follow-up:
 - How to check log of InitContainers?

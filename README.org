@@ -132,3 +132,7 @@ DennySophia446
 * TODO Quiz: When customers click url, open a new tab for the link :noexport:
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * TODO Quiz: simplify the xml and automate the generating          :noexport:
+* TODO Export quiz content in github only, not in wordpress        :noexport:
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* TODO Finish one algorithm quiz                                   :noexport:
+* HALF [#A] quiz: Use emacs to generate quiz, instead of manually update xml files
