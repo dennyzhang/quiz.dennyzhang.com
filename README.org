@@ -28,7 +28,6 @@ See more quiz from Denny: [[https://github.com/topics/denny-quiz][#denny-quiz]]
  #+END_HTML
 * org-mode configuration                                           :noexport:
 #+STARTUP: overview customtime noalign logdone showall
-#+TITLE:  Denny Quiz
 #+DESCRIPTION: 
 #+KEYWORDS: 
 #+AUTHOR: Denny Zhang
@@ -41,6 +40,8 @@ See more quiz from Denny: [[https://github.com/topics/denny-quiz][#denny-quiz]]
 #+SEQ_TODO: TODO HALF ASSIGN | DONE BYPASS DELEGATE CANCELED DEFERRED
 #+LINK_UP:   
 #+LINK_HOME: 
+* Role Models                                                 :noexport:
+https://github.com/trimstray/test-your-sysadmin-skills
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * TODO trim wordpress instance ram usage:noexport:
 * TODO Use org-mode to edit the quiz; Github can show the quiz; And also export to wordpress in a good format :noexport:
@@ -136,3 +137,60 @@ DennySophia446
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * TODO Finish one algorithm quiz                                   :noexport:
 * HALF [#A] quiz: Use emacs to generate quiz, instead of manually update xml files
+* TODO Run windows load in k8s
+https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.11.md#sig-windows
+* TODO What DownwardAPI is?
+https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.11.md#sig-storage
+* TODO Add quiz                                                    :noexport:
+** kubernetes-schedule
+Pod Priority and Preemption
+
+Taint
+** The container state is one of Waiting, Running, or Terminated
+https://kubernetes.io/docs/tasks/debug-application-cluster/debug-application-introspection/
+** readniess probe vs liveness probe
+** kubectl drain
+https://kubernetes.io/docs/tasks/administer-cluster/cluster-management/#maintenance-on-a-node
+** Pod Priority and Preemption
+https://kubernetes.io/docs/concepts/configuration/pod-priority-preemption
+** Why we need subresources: /status, /scale
+** Pods & Controllers
+https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/#pods-and-controllers
+
+Pods and Controllers
+A Controller can create and manage multiple Pods for you, handling replication and rollout and providing self-healing capabilities at cluster scope. For example, if a Node fails, the Controller might automatically replace the Pod by scheduling an identical replacement on a different Node.
+
+Some examples of Controllers that contain one or more pods include:
+
+Deployment
+StatefulSet
+DaemonSet
+In general, Controllers use a Pod Template that you provide to create the Pods for which it is responsible.
+
+** Object Spec and Status
+https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/
+
+Every Kubernetes object includes two nested object fields that govern the object's configuration: the object spec and the object status. The spec, which you must provide, describes your desired state for the object–the characteristics that you want the object to have. The status describes the actual state of the object, and is supplied and updated by the Kubernetes system. At any given time, the Kubernetes Control Plane actively manages an object's actual state to match the desired state you supplied.
+
+** service discovery: kube-dns, CoreDNS, kubelet, dnsmasqd
+CoreDNS is a replacement for kube-dns for service discovery.
+
+https://kubernetes.io/blog/2018/07/10/coredns-ga-for-kubernetes-cluster-dns/
+=======
+** how pod can talk with kubectl in security workflow?
+/Users/zdenny/git_code/kubernets_community/client-go/rest/config.go
+
+/var/run/secrets/kubernetes.io/serviceaccount/
+
+** quiz: web hosting env, who we implement it in k8s world
+Pod: containers to run git pull
+
+* TODO Quiz: List key requirements in XXX
+** Volume
+performance
+resize
+delete protection
+security context
+** Pod segreation
+** Pod clean shutdown: preStop handler
+https://kubernetes.io/docs/tasks/configure-pod-container/attach-handler-lifecycle-event/

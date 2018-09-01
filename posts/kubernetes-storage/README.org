@@ -24,3 +24,12 @@ Quiz Level: Medium
 
 ** Q: Volume create workflow
 ** Q: PVC security
+** How to mount a volume to Pod, and make it Readonly?
+#+BEGIN_EXAMPLE
+ - name: container-test
+    image: busybox
+    volumeMounts:
+    - name: all-in-one
+      mountPath: "/projected-volume"
+      readOnly: true
+#+END_EXAMPLE
