@@ -141,6 +141,16 @@ DennySophia446
 https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.11.md#sig-windows
 * TODO What DownwardAPI is?
 https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.11.md#sig-storage
+
+* TODO Quiz: List key requirements in XXX
+** Volume
+performance
+resize
+delete protection
+security context
+** Pod segreation
+** Pod clean shutdown: preStop handler
+https://kubernetes.io/docs/tasks/configure-pod-container/attach-handler-lifecycle-event/
 * TODO Add quiz                                                    :noexport:
 ** kubernetes-schedule
 Pod Priority and Preemption
@@ -176,7 +186,7 @@ Every Kubernetes object includes two nested object fields that govern the object
 CoreDNS is a replacement for kube-dns for service discovery.
 
 https://kubernetes.io/blog/2018/07/10/coredns-ga-for-kubernetes-cluster-dns/
-=======
+
 ** how pod can talk with kubectl in security workflow?
 /Users/zdenny/git_code/kubernets_community/client-go/rest/config.go
 
@@ -184,13 +194,4 @@ https://kubernetes.io/blog/2018/07/10/coredns-ga-for-kubernetes-cluster-dns/
 
 ** quiz: web hosting env, who we implement it in k8s world
 Pod: containers to run git pull
-
-* TODO Quiz: List key requirements in XXX
-** Volume
-performance
-resize
-delete protection
-security context
-** Pod segreation
-** Pod clean shutdown: preStop handler
-https://kubernetes.io/docs/tasks/configure-pod-container/attach-handler-lifecycle-event/
+** services: kubelet: https://github.com/dennyzhang/cheatsheet-kubernetes-A4#12-components--services
