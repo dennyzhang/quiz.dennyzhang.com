@@ -195,3 +195,6 @@ https://kubernetes.io/blog/2018/07/10/coredns-ga-for-kubernetes-cluster-dns/
 ** quiz: web hosting env, who we implement it in k8s world
 Pod: containers to run git pull
 ** services: kubelet: https://github.com/dennyzhang/cheatsheet-kubernetes-A4#12-components--services
+* quiz advanced concept                                            :noexport:
+** why we need network policy?
+** what's pod policy?

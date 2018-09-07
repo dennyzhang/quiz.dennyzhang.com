@@ -11,14 +11,14 @@ function my_test() {
 }
 
 function refresh_wordpress() {
-    echo "Use emacs to update README.ord"
+    echo "Use emacs to update wordpress posts"
     cd posts
     for f in $(ls -1t */README.org); do
         echo "Update $f"
         dirname=$(dirname $f)
         cd $dirname
         /Applications/Emacs.app/Contents/MacOS/Emacs-x86_64-10_10 --batch -l ../../emacs-update.el
-        cd ../..
+        cd ..
     done
 }
 
