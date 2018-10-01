@@ -164,6 +164,7 @@ https://kubernetes.io/docs/tasks/administer-cluster/cluster-management/#maintena
 ** Pod Priority and Preemption
 https://kubernetes.io/docs/concepts/configuration/pod-priority-preemption
 ** Why we need subresources: /status, /scale
+** pod crash/docker crash: https://github.com/dennyzhang/dennytest/tree/master/kubernetes/k8s_crash
 ** Pods & Controllers
 https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/#pods-and-controllers
 
@@ -186,6 +187,8 @@ Every Kubernetes object includes two nested object fields that govern the object
 CoreDNS is a replacement for kube-dns for service discovery.
 
 https://kubernetes.io/blog/2018/07/10/coredns-ga-for-kubernetes-cluster-dns/
+
+** What's Kubernetes addon?
 
 ** how pod can talk with kubectl in security workflow?
 /Users/zdenny/git_code/kubernets_community/client-go/rest/config.go
