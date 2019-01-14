@@ -40,7 +40,7 @@ See more quiz from Denny: [[https://github.com/topics/denny-quiz][#denny-quiz]]
 #+SEQ_TODO: TODO HALF ASSIGN | DONE BYPASS DELEGATE CANCELED DEFERRED
 #+LINK_UP:   
 #+LINK_HOME: 
-* Role Models                                                 :noexport:
+* Quiz Role Models                                                 :noexport:
 https://github.com/trimstray/test-your-sysadmin-skills
 * #  --8<-------------------------- separator ------------------------>8-- :noexport:
 * TODO trim wordpress instance ram usage:noexport:
